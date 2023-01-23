@@ -1,7 +1,7 @@
 #include "UbidotsEsp32Mqtt.h"
 
-const char* WIFI_SSID = "RED_PC";           // Put here your Wi-Fi SSID
-const char* WIFI_PASS = "3173192494";           // Put here your Wi-Fi password
+const char* WIFI_SSID = "----";           // Put here your Wi-Fi SSID
+const char* WIFI_PASS = "----";           // Put here your Wi-Fi password
 
 const char* UBIDOTS_TOKEN = "TOEKN";  // Put here your Ubidots TOKEN
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_HTTP);
