@@ -3,7 +3,7 @@
 const char* WIFI_SSID = "RED_PC";           // Put here your Wi-Fi SSID
 const char* WIFI_PASS = "3173192494";           // Put here your Wi-Fi password
 
-const char* UBIDOTS_TOKEN = "BBFF-rpFsDqYybIZLSdQmZbbiYnlTG1oqoJ";  // Put here your Ubidots TOKEN
+const char* UBIDOTS_TOKEN = "TOEKN";  // Put here your Ubidots TOKEN
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_HTTP);
 
 int counter=0;
